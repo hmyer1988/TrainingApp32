@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: TrainingApp32
+  host: TrainingApp32
+  disk_quota: 1024M
+  services:
+  - TrainingApp32-cloudantNoSQLDB
+  - TrainingApp32-iotf-service
